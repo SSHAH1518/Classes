@@ -1,11 +1,11 @@
-num = int(input("How many numbers do you want to add"))
+num = int(input("How many numbers do you want to add::"))
 
 total = 0
 
 for x in range(num):
-      n = int(input("What is the number?::"))
-      total = total + n
-      print('The total at this time is',  total)
-      print('_____________________________________________________________')
+    n = int(input("What is the number?::"))
+    total += n
+    print("The total right now is ", total)
+    print("____________________________________________________________________")
 
-print('The final total is', total)
+print("The final total is ", total)
